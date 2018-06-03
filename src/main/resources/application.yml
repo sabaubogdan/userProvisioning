@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: userProvisioning-service
+
+server:
+  port: 8765
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetch-registry: true
+    serviceURL:
+      defaultZone: http://localhost:8761/eureka/
